@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Wars Trivia</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+
+</head>
+<body>
+    <div class="body-container">
+        <img class="background-img" src="assets/images/background-desktop.jpg" alt="">
+        <div class="content-container">
+            <h1>Star Wars Trivia</h1>
+        <div class="select-containter">
+            <h2 id="h2">Please choose one character from each list</h2>
+            <div class="select-spreader">
+                <select class="select" name="" id="1">
+                    <option value="" hidden>Choose character</option>
+                </select>
+                <select class="select" name="" id="2">
+                    <option value="" hidden>Choose character</option>
+                </select>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="main-info">
+        <div class="character-div">
+            <div class="char-div div-1 hidden">Div 1</div>
+            <div class="char-div div-2 hidden">Div 2</div>
+        </div>
+        <div class="compare-div"></div>
+        <div class="btn-div">
+        <button class="button button-1 hidden">When did the characters first appear in a movie?</button>
+        <button class="button button-2 hidden">Which movie did these characters appear in?</button>
+        <button class="button button-3 hidden">Which homeplanet does the characters have?</button>
+        <button class="button button-4 hidden">The characters most expensive vehicle or starship?</button>
+        </div>
+    </div>
+    <script src="/index.js"></script>
+</body>
+</html>
