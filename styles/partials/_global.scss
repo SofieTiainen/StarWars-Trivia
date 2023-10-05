@@ -45,18 +45,21 @@ body {
                 text-align: center;
                 color: white;
                 text-shadow: 0 0 10px #E7140A, 0 0 20px #E7140A, 0 0 30px #E7140A;
-                font-size: 34px;
+                font-size: 44px;
                 letter-spacing: 3px;
                 padding-top: 20px;
+                padding-left: 15px;
+                padding-right: 15px;
             }
     
             div.select-containter {
                 position: absolute;
-                bottom: 15%;
+                bottom: 10%;
 
                 h2 {
                     color: rgb(255, 222, 160);
                     padding: 20px;
+                    font-size: 34px;
                 }
 
                 div.select-spreader {
@@ -71,6 +74,7 @@ body {
                         border-radius: 5px;
                         border: 1px solid #6c6767;
                         padding: 5px;
+                        font-size: 18px;
                         box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
                     }
 
@@ -112,7 +116,8 @@ body {
                     width: 200px;
                 }
                 p {
-                    line-height: 30px;
+                    line-height: 34px;
+                    font-size: 24px;
                     text-shadow: 1px 1px 2px rgba(246, 235, 235, 0.5);
                 }
 
@@ -123,6 +128,7 @@ body {
         div.compare-div {
             padding: 15px;
             line-height: 30px;
+            font-size: 24px;
             text-shadow: 1px 1px 2px rgba(246, 235, 235, 0.5);
             max-width: inherit;
             
@@ -149,8 +155,7 @@ body {
                 text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
                 line-height: 30px;
                 box-shadow: inset 0 0 10px rgba(168, 1, 1, 5);
-                margin-bottom: 30px;
-                font-size: 14px;
+                font-size: 24px;
                 min-width: 200px;
                 max-width: 200px;
                 min-height: 140px;
@@ -164,58 +169,35 @@ body {
 
 @media (min-width: 450px) and (max-width: 900px) {
     body {    
-        div.main-info {
-            div.btn-div {    
-                .button {    
-                    font-size: 16px;
-                    min-width: 350px;
-                    max-width: 350px;
-                    min-height: 140px;
+        .body-container {    
+            div.content-container {
+                div.select-containter {
+                    bottom: 15%;
                 }
+            }
+    
+        }
+    
+        div.main-info {        
+            div.character-div {
+                width: 100%;
+                padding: 0px 0px;
+                text-align: center;
             }
     
         }
     }
 }
+
 
 @media (min-width: 901px) {
     body {
-        .body-container {            
+        .body-container {
             img.background-img {
                 height: 90vh;
             }
-    
-            div.content-container {
-                h1 {
-                    font-size: 44px;
-                }
-            }
-    
         }
     
-        div.main-info {
-            padding-top: 60px;
-        
-            div.character-div {
-                div.char-div {
-                    img {
-                        width: 300px;
-                    }
-    
-                }
-    
-            }
-
-            div.btn-div {
-                .button {
-                    font-size: 16px;
-                    min-width: 350px;
-                    max-width: 350px;
-                    min-height: 140px;
-                }
-            }
-    
-        }
     }
-}
 
+}
