@@ -155,7 +155,7 @@ body div.main-info div.btn-div .button {
 }
 @media (min-width: 901px) {
   body .body-container img.background-img {
-    height: 90vh;
+    height: 100vh;
   }
   body div.main-info {
     padding-top: 20px;
